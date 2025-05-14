@@ -1,12 +1,30 @@
-# React + Vite
+# 🏨 Hotel Booking App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and user-friendly **Hotel Booking Application** built using modern frontend technologies. This app allows users to browse, search, and filter hotels based on location, price, and availability. It provides an elegant UI/UX to simulate hotel reservation experiences.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 https://hotel-booking-two-lemon.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔍 Search hotels by name or location
+- 🗓 Filter by check-in/check-out dates and guest count
+- 💵 Price filter and sorting options
+- 🖼️ Detailed hotel cards with images, amenities, and pricing
+- 🧭 Responsive design for mobile, tablet, and desktop
+- 📄 Static routing for hotel detail pages (optional mock routing)
+
+---
+
+## 🧰 Tech Stack
+
+| Technology     | Description                       |
+|----------------|-----------------------------------|
+| HTML/CSS       | Page structure and styling        |
+| JavaScript     | Dynamic UI interactions           |
+| React.js       | Component-based UI development    |
+| React Router   | (Optional) Client-side routing    |
+| Bootstrap/Tailwind| For responsive UI (based on your project) |
