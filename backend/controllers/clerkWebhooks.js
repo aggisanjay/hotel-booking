@@ -20,7 +20,7 @@ const clerkWebhooks=async(req,res)=>{
 
         //getting data from request body
         const {data,type}=req.body
-<<<<<<< HEAD
+
         const userData={
             _id:data.id,
             email:data.email_addresses[0].email_address,
@@ -28,9 +28,9 @@ const clerkWebhooks=async(req,res)=>{
             image:data.image_url,
              recentSearchedCities: [],
         }
-=======
+
         
->>>>>>> e115e7f (project completed)
+
         //switch cases for different events
 
         switch (type) {
