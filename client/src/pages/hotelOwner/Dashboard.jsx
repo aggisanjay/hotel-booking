@@ -5,7 +5,7 @@ import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
 const Dashboard = () => {
 
-    const {user,currency,getToken,toast,axios}=useAppContext()
+    const {user,currency,getToken,axios}=useAppContext()
     const [dashboardData, setDashboardData] = useState({
         bookings:[],
         totalBookings:0,
