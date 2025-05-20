@@ -1,6 +1,7 @@
 
 import transporter from "../configs/nodemailer.js"
 import Booking from "../models/Booking.js"
+import Hotel from "../models/Hotel.js"
 import Room from "../models/Room.js"
 //function to check availabity of Room
 const checkAvailability=async({checkInDate,checkOutDate,room})=>{
